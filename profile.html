@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FanPay Link Center</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+  <div class="card">
+    <div class="content">
+      <img src="profile.jpg" alt="FanPay" class="logo">
+      <h1>fanpay</h1>
+      <p>Top Up Game • Pulsa • PPOB Termurah ⚡</p>
+
+      <a href="https://instagram.com/fanpay" class="link-btn">💬 WhatsApp</a>
+      <a href="https://tiktok.com/@fanpay" class="link-btn">📸 Instagram</a>
+      <a href="https://fanpay.shop" class="link-btn">📘 Facebook</a>
+      <a href="https://instagram.com/fanpay" class="link-btn">▶️ Youtube</a>
+      <a href="https://tiktok.com/@fanpay" class="link-btn">📧 Email</a>
+      <a href="https://fanpay.shop" class="link-btn">🌐 Website Resmi</a>
+    </div>
+
+    <footer>&copy; 2025 fanpay. All rights reserved.</footer>
+  </div>
+
+  <!-- Popup WhatsApp -->
+  <div class="popup" id="popupChat">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA">
+    <div class="popup-text">Hai 👋 butuh bantuan? Hubungi admin FanPay!</div>
+    <button onclick="bukaForm()">Chat</button>
+  </div>
+
+  <!-- Overlay Form -->
+  <div class="overlay" id="overlayForm">
+    <div class="form-box">
+      <button class="close-btn" onclick="tutupForm()">×</button>
+      <h2>💬 Kirim Pengaduan</h2>
+      <input type="text" id="nama" placeholder="Nama kamu" required>
+      <input type="email" id="email" placeholder="Email (opsional)">
+      <textarea id="pesan" rows="3" placeholder="Tulis pesan atau kendala kamu..." required></textarea>
+      <button onclick="kirimPesan()" class="sendWa">Kirim ke WhatsApp</button>
+    </div>
+  </div>
+
+  <script src="profilejs.js"></script>
+</body>
+</html>
