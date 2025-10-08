@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Topup - Price List</title>
+  <link rel="stylesheet" href="pulsa.css">
+  <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+  <!-- Menu kategori -->
+  <div class="categories animate__animated animate__zoomIn">
+    <button class="active" onclick="showCategory('indosat', event)">Indosat</button>
+    <button onclick="showCategory('tri', event)" id="mlbb">Tri</button>
+    <button onclick="showCategory('axis', event)">Axis</button>
+    <button onclick="showCategory('xl', event)">Xl</button>
+    <button onclick="showCategory('smartfren', event)">Smartfren</button>
+    <button onclick="showCategory('telkomsel', event)">Telkomsel</button>
+    <button onclick="showCategory('byu', event)">By.u</button>
+  </div>
+
+  <!-- Daftar harga kategori Free Fire -->
+  <div class="price-list active animate__animated animate__zoomIn" id="indosat">
+    <div class="card" 
+         onclick="selectProduct('Indosat Transfer 20.000', 'Rp 20.000')">
+      <h3>Indosat Transfer 20.000</h3>
+      <p class="price">Rp 20.000</p>
+      <p><s>Rp 21.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat Transfer 30.000', 'Rp 29.000')">
+      <h3>Indosat Transfer 30.000</h3>
+      <p class="price">Rp 29.000</p>
+      <p><s>Rp 31.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat Transfer 50.000', 'Rp 48.000')">
+      <h3>Indosat Transfer 50.000</h3>
+      <p class="price">Rp 48.000</p>
+      <p><s>Rp 51.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat Transfer 100.000', 'Rp 97.000')">
+      <h3>Indosat Transfer 100.000</h3>
+      <p class="price">Rp 97.000</p>
+      <p><s>Rp 101.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat Transfer 150.000', 'Rp 145.000')">
+      <h3>Indosat Transfer 150.000</h3>
+      <p class="price">Rp 145.000</p>
+      <p><s>Rp 151.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat Transfer 200.000', 'Rp 193.000')">
+      <h3>Indosat Transfer 200.000</h3>
+      <p class="price">Rp 193.000</p>
+      <p><s>Rp 201.000</s></p>
+    </div>
+    
+    <div class="card" 
+         onclick="selectProduct('Indosat 5.000', 'Rp 6.800')">
+      <h3>Indosat 5.000</h3>
+      <p class="price">Rp 6.800</p>
+      <p><s>Rp 7.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat 10.000', 'Rp 11.800')">
+      <h3>Indosat 10.000</h3>
+      <p class="price">Rp 11.800</p>
+      <p><s>Rp 12.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat 15.000', 'Rp 16.000')">
+      <h3>Indosat 15.000</h3>
+      <p class="price">Rp 16.000</p>
+      <p><s>Rp 17.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat 20.000', 'Rp 21.000')">
+      <h3>Indosat 20.000</h3>
+      <p class="price">Rp 21.000</p>
+      <p><s>Rp 22.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat 25.000', 'Rp 26.000')">
+      <h3>Indosat 25.000</h3>
+      <p class="price">Rp 26.000</p>
+      <p><s>Rp 27.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat 30.000', 'Rp 31.000')">
+      <h3>Indosat 30.000</h3>
+      <p class="price">Rp 31.000</p>
+      <p><s>Rp 32.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat 40.000', 'Rp 40.500')">
+      <h3>Indosat 40.000</h3>
+      <p class="price">Rp 40.500</p>
+      <p><s>Rp 42.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat 50.000', 'Rp 50.000')">
+      <h3>Indosat 50.000</h3>
+      <p class="price">Rp 50.000</p>
+      <p><s>Rp 52.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat 60.000', 'Rp 60.000')">
+      <h3>Indosat 60.000</h3>
+      <p class="price">Rp 60.000</p>
+      <p><s>Rp 62.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat 70.000', 'Rp 70.000')">
+      <h3>Indosat 70.000</h3>
+      <p class="price">Rp 70.000</p>
+      <p><s>Rp 72.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat 80.000', 'Rp 80.000')">
+      <h3>Indosat 80.000</h3>
+      <p class="price">Rp 80.000</p>
+      <p><s>Rp 82.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat 90.000', 'Rp 90.000')">
+      <h3>Indosat 90.000</h3>
+      <p class="price">Rp 90.000</p>
+      <p><s>Rp 92.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat 100.000', 'Rp 98.000')">
+      <h3>Indosat 100.000</h3>
+      <p class="price">Rp 98.000</p>
+      <p><s>Rp 102.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Indosat 200.000', 'Rp 199.000')">
+      <h3>Indosat 200.000</h3>
+      <p class="price">Rp 199.000</p>
+      <p><s>Rp 202.000</s></p>
+    </div>
+  </div>
+  
+  <!-- Daftar harga kategori Tri -->
+  <div class="price-list animate__animated animate__zoomIn" id="tri">
+    <div class="card" 
+         onclick="selectProduct('Three Transfer 20.000', 'Rp 20.000')">
+      <h3>Three Transfer 20.000</h3>
+      <p class="price">Rp 20.000</p>
+      <p><s>Rp 21.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three Transfer 30.000', 'Rp 29.000')">
+      <h3>Three Transfer 30.000</h3>
+      <p class="price">Rp 29.000</p>
+      <p><s>Rp 31.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three Transfer 50.000', 'Rp 48.000')">
+      <h3>Three Transfer 50.000</h3>
+      <p class="price">Rp 48.000</p>
+      <p><s>Rp 51.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three Transfer 100.000', 'Rp 97.000')">
+      <h3>Three Transfer 100.000</h3>
+      <p class="price">Rp 97.000</p>
+      <p><s>Rp 101.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three Transfer 150.000', 'Rp 145.000')">
+      <h3>Three Transfer 150.000</h3>
+      <p class="price">Rp 145.000</p>
+      <p><s>Rp 151.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three Transfer 200.000', 'Rp 193.000')">
+      <h3>Three Transfer 200.000</h3>
+      <p class="price">Rp 193.000</p>
+      <p><s>Rp 201.000</s></p>
+    </div>
+    
+    <div class="card" 
+         onclick="selectProduct('Three 5.000', 'Rp 5.500')">
+      <h3>Three 5.000</h3>
+      <p class="price">Rp 5.500</p>
+      <p><s>Rp 7.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three 10.000', 'Rp 10.500')">
+      <h3>Three 10.000</h3>
+      <p class="price">Rp 10.500</p>
+      <p><s>Rp 12.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three 15.000', 'Rp 15.000')">
+      <h3>Three 15.000</h3>
+      <p class="price">Rp 15.000</p>
+      <p><s>Rp 17.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three 20.000', 'Rp 20.000')">
+      <h3>Three 20.000</h3>
+      <p class="price">Rp 20.000</p>
+      <p><s>Rp 22.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three 25.000', 'Rp 25.000')">
+      <h3>Three 25.000</h3>
+      <p class="price">Rp 25.000</p>
+      <p><s>Rp 27.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three 30.000', 'Rp 30.000')">
+      <h3>Three 30.000</h3>
+      <p class="price">Rp 30.000</p>
+      <p><s>Rp 32.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three 40.000', 'Rp 40.000')">
+      <h3>Three 40.000</h3>
+      <p class="price">Rp 40.000</p>
+      <p><s>Rp 42.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three 50.000', 'Rp 49.500')">
+      <h3>Three 50.000</h3>
+      <p class="price">Rp 49.500</p>
+      <p><s>Rp 52.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three 60.000', 'Rp 59.700')">
+      <h3>Three 60.000</h3>
+      <p class="price">Rp 59.700</p>
+      <p><s>Rp 62.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three 70.000', 'Rp 69.500')">
+      <h3>Three 70.000</h3>
+      <p class="price">Rp 69.500</p>
+      <p><s>Rp 72.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three 80.000', 'Rp 79.000')">
+      <h3>Three 80.000</h3>
+      <p class="price">Rp 79.000</p>
+      <p><s>Rp 82.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three 90.000', 'Rp 88.500')">
+      <h3>Three 90.000</h3>
+      <p class="price">Rp 88.500</p>
+      <p><s>Rp 92.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three 100.000', 'Rp 97.000')">
+      <h3>Three 100.000</h3>
+      <p class="price">Rp 97.000</p>
+      <p><s>Rp 102.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Three 200.000', 'Rp 195.000')">
+      <h3>Three 200.000</h3>
+      <p class="price">Rp 195.000</p>
+      <p><s>Rp 202.000</s></p>
+    </div>
+  </div>
+  
+  <!-- Daftar harga kategori Axis -->
+  <div class="price-list animate__animated animate__zoomIn" id="axis">
+    <div class="card" 
+         onclick="selectProduct('Axis Transfer 20.000', 'Rp 20.000')">
+      <h3>Axis Transfer 20.000</h3>
+      <p class="price">Rp 20.000</p>
+      <p><s>Rp 21.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis Transfer 30.000', 'Rp 29.000')">
+      <h3>Axis Transfer 30.000</h3>
+      <p class="price">Rp 29.000</p>
+      <p><s>Rp 31.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis Transfer 50.000', 'Rp 48.000')">
+      <h3>Axis Transfer 50.000</h3>
+      <p class="price">Rp 48.000</p>
+      <p><s>Rp 51.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis Transfer 100.000', 'Rp 97.000')">
+      <h3>Axis Transfer 100.000</h3>
+      <p class="price">Rp 97.000</p>
+      <p><s>Rp 101.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis Transfer 150.000', 'Rp 145.000')">
+      <h3>Axis Transfer 150.000</h3>
+      <p class="price">Rp 145.000</p>
+      <p><s>Rp 151.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis Transfer 200.000', 'Rp 193.000')">
+      <h3>Axis Transfer 200.000</h3>
+      <p class="price">Rp 193.000</p>
+      <p><s>Rp 201.000</s></p>
+    </div>
+    
+    <div class="card" 
+         onclick="selectProduct('Axis 5.000', 'Rp 6.500')">
+      <h3>Axis 5.000</h3>
+      <p class="price">Rp 6.500</p>
+      <p><s>Rp 7.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis 10.000', 'Rp 11.500')">
+      <h3>Axis 10.000</h3>
+      <p class="price">Rp 11.500</p>
+      <p><s>Rp 12.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis 15.000', 'Rp 15.500')">
+      <h3>Axis 15.000</h3>
+      <p class="price">Rp 15.500</p>
+      <p><s>Rp 17.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis 20.000', 'Rp 20.000')">
+      <h3>Axis 20.000</h3>
+      <p class="price">Rp 20.000</p>
+      <p><s>Rp 22.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis 25.000', 'Rp 26.000')">
+      <h3>Axis 25.000</h3>
+      <p class="price">Rp 26.000</p>
+      <p><s>Rp 27.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis 30.000', 'Rp 31.000')">
+      <h3>Axis 30.000</h3>
+      <p class="price">Rp 31.000</p>
+      <p><s>Rp 32.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis 40.000', 'Rp 41.000')">
+      <h3>Axis 40.000</h3>
+      <p class="price">Rp 41.000</p>
+      <p><s>Rp 42.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis 50.000', 'Rp 51.000')">
+      <h3>Axis 50.000</h3>
+      <p class="price">Rp 50.000</p>
+      <p><s>Rp 52.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis 60.000', 'Rp 61.000')">
+      <h3>Axis 60.000</h3>
+      <p class="price">Rp 61.000</p>
+      <p><s>Rp 62.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis 70.000', 'Rp 71.000')">
+      <h3>Axis 70.000</h3>
+      <p class="price">Rp 71.000</p>
+      <p><s>Rp 72.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis 80.000', 'Rp 81.000')">
+      <h3>Axis 80.000</h3>
+      <p class="price">Rp 81.000</p>
+      <p><s>Rp 82.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis 90.000', 'Rp 91.000')">
+      <h3>Axis 90.000</h3>
+      <p class="price">Rp 91.000</p>
+      <p><s>Rp 92.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis 100.000', 'Rp 101.000')">
+      <h3>Axis 100.000</h3>
+      <p class="price">Rp 101.000</p>
+      <p><s>Rp 102.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Axis 200.000', 'Rp 201.000')">
+      <h3>Axis 200.000</h3>
+      <p class="price">Rp 201.000</p>
+      <p><s>Rp 202.000</s></p>
+    </div>
+  </div>
+  
+  <!-- Daftar harga kategori Xl -->
+  <div class="price-list animate__animated animate__zoomIn" id="xl">
+    <div class="card" 
+         onclick="selectProduct('XL Transfer 20.000', 'Rp 20.000')">
+      <h3>XL Transfer 20.000</h3>
+      <p class="price">Rp 20.000</p>
+      <p><s>Rp 21.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL Transfer 30.000', 'Rp 29.000')">
+      <h3>XL Transfer 30.000</h3>
+      <p class="price">Rp 29.000</p>
+      <p><s>Rp 31.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL Transfer 50.000', 'Rp 48.000')">
+      <h3>XL Transfer 50.000</h3>
+      <p class="price">Rp 48.000</p>
+      <p><s>Rp 51.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL Transfer 100.000', 'Rp 97.000')">
+      <h3>XL Transfer 100.000</h3>
+      <p class="price">Rp 97.000</p>
+      <p><s>Rp 101.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL Transfer 150.000', 'Rp 145.000')">
+      <h3>XL Transfer 150.000</h3>
+      <p class="price">Rp 145.000</p>
+      <p><s>Rp 151.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL Transfer 200.000', 'Rp 193.000')">
+      <h3>XL Transfer 200.000</h3>
+      <p class="price">Rp 193.000</p>
+      <p><s>Rp 201.000</s></p>
+    </div>
+    
+    <div class="card" 
+         onclick="selectProduct('XL 5.000', 'Rp 6.500')">
+      <h3>XL 5.000</h3>
+      <p class="price">Rp 6.500</p>
+      <p><s>Rp 7.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL 10.000', 'Rp 11.500')">
+      <h3>XL 10.000</h3>
+      <p class="price">Rp 11.500</p>
+      <p><s>Rp 12.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL 15.000', 'Rp 15.500')">
+      <h3>XL 15.000</h3>
+      <p class="price">Rp 15.500</p>
+      <p><s>Rp 17.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL 20.000', 'Rp 20.000')">
+      <h3>XL 20.000</h3>
+      <p class="price">Rp 20.000</p>
+      <p><s>Rp 22.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL 25.000', 'Rp 26.000')">
+      <h3>XL 25.000</h3>
+      <p class="price">Rp 26.000</p>
+      <p><s>Rp 27.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL 30.000', 'Rp 31.000')">
+      <h3>XL 30.000</h3>
+      <p class="price">Rp 31.000</p>
+      <p><s>Rp 32.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL 40.000', 'Rp 41.000')">
+      <h3>XL 40.000</h3>
+      <p class="price">Rp 41.000</p>
+      <p><s>Rp 42.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL 50.000', 'Rp 51.000')">
+      <h3>XL 50.000</h3>
+      <p class="price">Rp 50.000</p>
+      <p><s>Rp 52.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL 60.000', 'Rp 61.000')">
+      <h3>XL 60.000</h3>
+      <p class="price">Rp 61.000</p>
+      <p><s>Rp 62.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL 70.000', 'Rp 71.000')">
+      <h3>XL 70.000</h3>
+      <p class="price">Rp 71.000</p>
+      <p><s>Rp 72.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL 80.000', 'Rp 81.000')">
+      <h3>XL 80.000</h3>
+      <p class="price">Rp 81.000</p>
+      <p><s>Rp 82.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL 90.000', 'Rp 91.000')">
+      <h3>XL 90.000</h3>
+      <p class="price">Rp 91.000</p>
+      <p><s>Rp 92.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL 100.000', 'Rp 101.000')">
+      <h3>XL 100.000</h3>
+      <p class="price">Rp 101.000</p>
+      <p><s>Rp 102.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('XL 200.000', 'Rp 201.000')">
+      <h3>XL 200.000</h3>
+      <p class="price">Rp 201.000</p>
+      <p><s>Rp 202.000</s></p>
+    </div>
+  </div>
+  
+  <!-- Daftar harga kategori Smartfren -->
+  <div class="price-list animate__animated animate__zoomIn" id="smartfren">
+    <div class="card" 
+         onclick="selectProduct('Smartfren 5.000', 'Rp 5.500')">
+      <h3>Smartfren 5.000</h3>
+      <p class="price">Rp 5.500</p>
+      <p><s>Rp 7.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Smartfren 10.000', 'Rp 10.500')">
+      <h3>Smartfren 10.000</h3>
+      <p class="price">Rp 10.500</p>
+      <p><s>Rp 12.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Smartfren 15.000', 'Rp 15.500')">
+      <h3>Smartfren 15.000</h3>
+      <p class="price">Rp 15.500</p>
+      <p><s>Rp 17.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Smartfren 20.000', 'Rp 20.500')">
+      <h3>Smartfren 20.000</h3>
+      <p class="price">Rp 20.500</p>
+      <p><s>Rp 22.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Smartfren 25.000', 'Rp 25.500')">
+      <h3>Smartfren 25.000</h3>
+      <p class="price">Rp 25.500</p>
+      <p><s>Rp 27.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Smartfren 30.000', 'Rp 31.000')">
+      <h3>Smartfren 30.000</h3>
+      <p class="price">Rp 31.000</p>
+      <p><s>Rp 32.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Smartfren 40.000', 'Rp 41.000')">
+      <h3>Smartfren 40.000</h3>
+      <p class="price">Rp 41.000</p>
+      <p><s>Rp 42.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Smartfren 50.000', 'Rp 50.500')">
+      <h3>Smartfren 50.000</h3>
+      <p class="price">Rp 50.500</p>
+      <p><s>Rp 52.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Smartfren 60.000', 'Rp 60.500')">
+      <h3>Smartfren 60.000</h3>
+      <p class="price">Rp 60.500</p>
+      <p><s>Rp 62.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Smartfren 70.000', 'Rp 71.000')">
+      <h3>Smartfren 70.000</h3>
+      <p class="price">Rp 71.000</p>
+      <p><s>Rp 72.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Smartfren 80.000', 'Rp 81.000')">
+      <h3>Smartfren 80.000</h3>
+      <p class="price">Rp 81.000</p>
+      <p><s>Rp 82.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Smartfren 90.000', 'Rp 91.000')">
+      <h3>Smartfren 90.000</h3>
+      <p class="price">Rp 91.000</p>
+      <p><s>Rp 92.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Smartfren 100.000', 'Rp 101.000')">
+      <h3>Smartfren 100.000</h3>
+      <p class="price">Rp 101.000</p>
+      <p><s>Rp 102.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Smartfren 200.000', 'Rp 199.000')">
+      <h3>Smartfren 200.000</h3>
+      <p class="price">Rp 199.000</p>
+      <p><s>Rp 202.000</s></p>
+    </div>
+  </div>
+  
+  <!-- Daftar harga kategori Telkomsel -->
+  <div class="price-list animate__animated animate__zoomIn" id="telkomsel">
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 5.000', 'Rp 5.700')">
+      <h3>Telkomsel 5.000</h3>
+      <p class="price">Rp 5.700</p>
+      <p><s>Rp 7.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 10.000', 'Rp 10.700')">
+      <h3>Telkomsel 10.000</h3>
+      <p class="price">Rp 10.700</p>
+      <p><s>Rp 12.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 15.000', 'Rp 15.500')">
+      <h3>Telkomsel 15.000</h3>
+      <p class="price">Rp 15.500</p>
+      <p><s>Rp 17.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 20.000', 'Rp 20.500')">
+      <h3>Telkomsel 20.000</h3>
+      <p class="price">Rp 20.500</p>
+      <p><s>Rp 22.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 25.000', 'Rp 25.500')">
+      <h3>Telkomsel 25.000</h3>
+      <p class="price">Rp 25.500</p>
+      <p><s>Rp 27.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 30.000', 'Rp 31.000')">
+      <h3>Telkomsel 30.000</h3>
+      <p class="price">Rp 31.000</p>
+      <p><s>Rp 32.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 40.000', 'Rp 40.500')">
+      <h3>Telkomsel 40.000</h3>
+      <p class="price">Rp 40.500</p>
+      <p><s>Rp 42.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 50.000', 'Rp 50.500')">
+      <h3>Telkomsel 50.000</h3>
+      <p class="price">Rp 50.500</p>
+      <p><s>Rp 52.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 60.000', 'Rp 60.500')">
+      <h3>Telkomsel 60.000</h3>
+      <p class="price">Rp 60.500</p>
+      <p><s>Rp 62.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 70.000', 'Rp 70.500')">
+      <h3>Telkomsel 70.000</h3>
+      <p class="price">Rp 70.500</p>
+      <p><s>Rp 72.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 80.000', 'Rp 80.500')">
+      <h3>Telkomsel 80.000</h3>
+      <p class="price">Rp 80.500</p>
+      <p><s>Rp 82.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 90.000', 'Rp 90.000')">
+      <h3>Telkomsel 90.000</h3>
+      <p class="price">Rp 90.000</p>
+      <p><s>Rp 92.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 100.000', 'Rp 98.000')">
+      <h3>Telkomsel 100.000</h3>
+      <p class="price">Rp 98.000</p>
+      <p><s>Rp 102.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('Telkomsel 200.000', 'Rp 196.000')">
+      <h3>Telkomsel 200.000</h3>
+      <p class="price">Rp 196.000</p>
+      <p><s>Rp 202.000</s></p>
+    </div>
+  </div>
+  
+  <!-- Daftar harga kategori Byu -->
+  <div class="price-list animate__animated animate__zoomIn" id="byu">
+    <div class="card" 
+         onclick="selectProduct('By.U 5.000', 'Rp 5.800')">
+      <h3>By.U 5.000</h3>
+      <p class="price">Rp 5.800</p>
+      <p><s>Rp 7.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('By.U 10.000', 'Rp 10.800')">
+      <h3>By.U 10.000</h3>
+      <p class="price">Rp 10.800</p>
+      <p><s>Rp 12.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('By.U 15.000', 'Rp 15.800')">
+      <h3>By.U 15.000</h3>
+      <p class="price">Rp 15.800</p>
+      <p><s>Rp 17.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('By.U 20.000', 'Rp 20.800')">
+      <h3>By.U 20.000</h3>
+      <p class="price">Rp 20.800</p>
+      <p><s>Rp 22.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('By.U 25.000', 'Rp 25.900')">
+      <h3>By.U 25.000</h3>
+      <p class="price">Rp 25.900</p>
+      <p><s>Rp 27.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('By.U 30.000', 'Rp 31.000')">
+      <h3>By.U 30.000</h3>
+      <p class="price">Rp 31.000</p>
+      <p><s>Rp 32.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('By.U 40.000', 'Rp 41.000')">
+      <h3>By.U 40.000</h3>
+      <p class="price">Rp 41.000</p>
+      <p><s>Rp 42.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('By.U 50.000', 'Rp 51.000')">
+      <h3>By.U 50.000</h3>
+      <p class="price">Rp 51.000</p>
+      <p><s>Rp 52.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('By.U 60.000', 'Rp 61.000')">
+      <h3>By.U 60.000</h3>
+      <p class="price">Rp 61.000</p>
+      <p><s>Rp 62.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('By.U 70.000', 'Rp 71.000')">
+      <h3>By.U 70.000</h3>
+      <p class="price">Rp 71.000</p>
+      <p><s>Rp 72.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('By.U 80.000', 'Rp 81.000')">
+      <h3>By.U 80.000</h3>
+      <p class="price">Rp 81.000</p>
+      <p><s>Rp 82.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('By.U 90.000', 'Rp 91.000')">
+      <h3>By.U 90.000</h3>
+      <p class="price">Rp 91.000</p>
+      <p><s>Rp 92.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('By.U 100.000', 'Rp 101.000')">
+      <h3>By.U 100.000</h3>
+      <p class="price">Rp 101.000</p>
+      <p><s>Rp 102.000</s></p>
+    </div>
+    <div class="card" 
+         onclick="selectProduct('By.U 200.000', 'Rp 201.000')">
+      <h3>By.U 200.000</h3>
+      <p class="price">Rp 201.000</p>
+      <p><s>Rp 202.000</s></p>
+    </div>
+  </div>
+  
+  <!-- Form Order -->
+  <div class="order-form animate__animated animate__zoomIn" id="orderForm">
+    <h3>Lengkapi Data Pembelian</h3>
+    <input type="text" id="waNumber" placeholder="Masukkan No WhatsApp">
+    <button onclick="sendToWA()">Beli Sekarang</button>
+  </div>
+  
+  <!-- Review -->
+  <div class="reviews animate__animated animate__fadeInLeft">
+    <h3>Review Customer</h3>
+    <div class="review-item">
+      <strong>Andi</strong> <span class="stars">★★★★★</span>
+      <p>“Topup cepat banget, langsung masuk!”</p>
+    </div>
+    <div class="review-item">
+      <strong>Bella</strong> <span class="stars">★★★★☆</span>
+      <p>“Prosesnya cepat, mudah, dan support-nya selalu ready. Pokoknya puas banget!”</p>
+    </div>
+    <div class="review-item">
+      <strong>Rizky p</strong> <span class="stars">★★★★★</span>
+      <p>“Harga bersaing dan server selalu stabil. Gak perlu khawatir delay topup.”</p>
+    </div>
+    <div class="review-item">
+      <strong>Aurell03</strong> <span class="stars">★★★★★</span>
+      <p>“Cepat dan mudah! Topup game langsung masuk tanpa ribet, recommended banget!”</p>
+    </div>
+    <div class="review-item">
+      <strong>Andre Jiwir</strong> <span class="stars">★★★★★</span>
+      <p>“Transaksi cepat, aman, dan harga bersaing. Sangat membantu sehari-hari.”</p>
+    </div>
+    <div class="review-item">
+      <strong>Andika</strong> <span class="stars">★★★★★</span>
+      <p>“Pelayanan ramah, ada diskon juga. Mantap!”</p>
+    </div>
+    <div class="review-item">
+      <strong>M fakri</strong> <span class="stars">★★★★★</span>
+      <p>“Harga sangat murah, mantap pokoknya!”</p>
+    </div>
+  </div>
+  
+  <footer class="footer animate__animated animate__zoomIn" id="contact">
+    <h3>Hubungi Kami</h3>
+    <ul class="social-icons">
+      <li><a href="https://wa.me/6283834894816" target="_blank" class="whatsapp"><img src="wa.png" alt="WhatsApp" /></a></li>
+      <li><a href="https://instagram.com/username" target="_blank" class="instagram"><img src="ig.png" alt="Instagram" /></a></li>
+      <li><a href="https://www.tiktok.com/" target="_blank" class="tiktok"><img src="tiktok.png" alt="Tiktok" /></a></li>
+      <li><a href="mailto:email@domain.com" class="email"><img src="email.png" alt="Email" /></a></li>
+      <li><a href="https://facebook.com/username" target="_blank" class="facebook"><img src="fb.png" alt="Facebook" /></a></li>
+      <li><a href="https://facebook.com/username" target="_blank" class="youtube"><img src="yt.png" alt="Youtube" /></a></li>
+    </ul>
+    <p>&copy; 2025 fanpay. All rights reserved.</p>
+  </footer>
+  
+  <!-- Tombol Home -->
+  <a href="market.html" class="home-btn">🏠 Home</a>
+  
+  
+  <script src="pulsa.js"></script>
+  </body>
+  
+  </html>
